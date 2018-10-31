@@ -72,6 +72,9 @@ int main(int argc, char **argv) {
 //  }
   catch ( Magick::Exception & error) {
   cerr << "Caught Magick++ exception: " << error.what() << endl;
+
+
+//nice!
  }
  return 0;
 }
